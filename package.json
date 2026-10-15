@@ -1,0 +1,15 @@
+{
+  "name": "flowcore-importacao-csv",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Lê planilha CSV do Excel ou ERP (aspas, ; ou ,, BOM, CRLF) e valida cada linha com schema simples: número BR, data, e-mail, CPF e CNPJ. Mostra ao usuário a linha e a coluna exata de cada erro.",
+  "author": "FlowCore Soluções LTDA",
+  "license": "MIT",
+  "scripts": {
+    "test": "vitest run"
+  },
+  "devDependencies": {
+    "vitest": "^3.2.4"
+  }
+}
